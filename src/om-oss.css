@@ -1,0 +1,121 @@
+.full-image{
+    width: calc(100% - (20vw * 2));
+    /* height: 500px; */
+    overflow: hidden;
+    border-radius: 4px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.fw-image{
+    width: 100%;
+}
+
+.about-container{
+    margin-top: 256px;
+}
+
+.about-content{
+    
+}
+
+.page-title{
+    color: #fff;
+    font-size: 48pt;
+    padding: 16px;
+    font-family: 'Avenir', 'Helvetica', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.person{
+    padding: 8px;
+    font-family: 'Avenir', 'Helvetica', sans-serif;        
+    width: 256px;
+    /* border-radius: 4px; */
+    /* background-color: #fff; */
+    margin: 8px;
+    float: left;
+}
+
+.person-name{
+    margin-top: 8px;
+    font-size: 20pt;
+    font-weight: 600;  
+    color: #2fbeff;  
+    /* text-align: center;     */
+}
+
+.person-title{
+    font-size: 12pt;
+    font-weight: 500;
+    opacity: 0.5;
+    padding-left: 8px;
+    /* text-align: center; */
+    font-style: italic;
+    color: #b7e8ff;
+}
+
+.person-description{
+    margin-top: 16px;
+    font-size: 12pt;
+    padding: 8px;
+    color: #fff;
+}
+
+.person-container{
+    width: calc(100% - (16px * 2));
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.person-icon{
+    width: 100%;
+    height: 48px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.icon-man{
+    background-image: url(assets/person-icons/Man-Filled.svg)
+}
+
+.icon-admin{
+    background-image: url(assets/person-icons/Admin-Filled.svg)
+}
+
+.icon-nerd{
+    background-image: url(assets/person-icons/Nerd-Filled.svg)
+}
+
+.icon-woman{
+    background-image: url(assets/person-icons/Woman-Filled.svg)
+}
+
+.person-row{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media(max-width: 500px){
+
+    .full-image{
+        width: calc(100%);
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .person-row{
+        flex-direction: column;
+    }
+}

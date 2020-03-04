@@ -1,0 +1,30 @@
+{
+  "name": "vardplanwebsite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animated": "^0.2.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-history": "^0.18.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts-ts": "2.7.0",
+    "react-slick": "^0.15.4",
+    "react-text-loop": "^1.1.0",
+    "react-transition-group": "^2.2.1",
+    "serve": "^6.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.28",
+    "@types/react": "^16.0.5",
+    "typescript": "^3.8.3"
+  }
+}

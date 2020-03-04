@@ -1,0 +1,43 @@
+.email-view{
+    width: 500px;
+    height: 200px;
+    border-radius: 4px
+}
+
+.ev-link{
+    float: left;
+    color: rgb(0, 118, 255);
+    line-height: calc(64px - (4px * 2));
+    padding: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: calc(50% - 1px - (16px * 2));
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: opacity 0.3s;                
+}
+
+.ev-link:active{
+    opacity: 0.25;
+    transition: none;    
+}
+
+.divider{
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: calc(64px - (16px * 2));
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #000000;
+    opacity: .25;
+}
+
+@media(max-width: 500px){
+    .email-view{
+        width: 100vw;
+        height: 300px;
+        border-radius: 0;
+    }
+}
