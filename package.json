@@ -9,7 +9,7 @@
     "react-history": "^0.18.2",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts-ts": "2.7.0",
+    "react-scripts-ts": "4.0.8",
     "react-slick": "^0.15.4",
     "react-text-loop": "^1.1.0",
     "react-transition-group": "^2.2.1",
